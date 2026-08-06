@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
 curl -fsSL 'https://iplist.opencck.org/?format=text&data=cidr4' -o origin
